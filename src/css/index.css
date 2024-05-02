@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  App                                                  */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* :root {
+  --background-dark: rgb(24, 23, 31);
+}
+
+body {
+  background-color: var(--background-dark);
+}
+
+.container {
+  width: min(100% - 30px, 1080px);
+  margin-inline: auto;
+} */
+
+main {
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+}
+
+div {
+  text-align: center;
+}
+
+h2, input {
+  font-weight: 400;
+  color: #fff;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 1;
+
+  span {
+    color: #00c6f3;
+  }
+}
+
+input {
+  width: 200px;
+  height: 44px;
+  margin-top: 20px;
+  padding: 0 25px;
+  border: 1px solid rgb(255 255 255 / 5%);
+  background-color: rgb(255 255 255 / 5%);
+  border-radius: 50px;
+  font-size: 1.8rem;
+  text-align: center;
+}
